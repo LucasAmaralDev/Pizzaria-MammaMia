@@ -140,3 +140,15 @@ body {
     display: none;
     transform: 200ms;
 }
+
+
+@media (max-width: 750px)
+{
+  .header-sac a{
+    display: none;
+  }
+
+  .header-sac img {
+    margin-right: 0;
+}
+}
