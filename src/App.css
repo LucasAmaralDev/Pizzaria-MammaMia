@@ -1,38 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .App {
-  text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 400ms;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-sac {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-sac img {
+    width: 200px;
+    margin-right: 350px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-sac a {
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 600ms;
+    color: #9A1E09;
 }
 
-.App-link {
-  color: #61dafb;
+.header-sac a:hover {
+    color: #190501;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.sub-header-sac {
+    background-color: rgb(116, 16, 16);
+    border-top: 2px solid rgb(63, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.sub-header-sac img {
+    display: flex;
+    width: 55%;
+    max-width: 1400px;
+}
+
+
+.description {
+    width: 100%;
+    text-align: center;
+    background-color: #190501;
+}
+
+.description h1,
+.description h3,
+.description p {
+    color: aliceblue;
+}
+
+.description h1 {
+    font-size: 1.2em;
+}
+
+.description h3 {
+    font-size: 1.1em;
+}
+
+.description p {
+    font-size: 0.9em;
+}
+
+
+.fale-conosco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+    background-color: rgb(231, 231, 231);
+    border: 5px solid rgb(225, 222, 222);
+    border-radius: 9px;
+    margin-bottom: 600px;
+    margin-top: 2%;
+}
+
+.fale-conosco button {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(136, 114, 114, 0.34);
+    border-radius: 6px;
+    transition: 250ms;
+    font-weight: bold;
+}
+
+.fale-conosco button:hover {
+    background-color: rgb(74, 198, 72);
+    color: rgb(255, 255, 255);
+    border-color: rgba(240, 248, 255, 0);
+}
+
+.content-atendimento {
+    margin-bottom: 40px;
+}
+
+.content-verificar {
+    margin-bottom: 40px;
+}
+
+.fcolumn {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: 200ms;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: 200ms;
+}
+
+.none {
+    display: none;
+    transform: 200ms;
 }

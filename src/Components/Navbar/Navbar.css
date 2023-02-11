@@ -1,0 +1,57 @@
+.section-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.box-logo img {
+    height: 130px;
+}
+
+.navbuttons {
+    display: flex;
+    height: 100%;
+    border-right: 1px solid #e4e4e4;
+    margin-right: 20px;
+}
+
+.navbuttons a {
+    width: 130px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #e4e4e4;
+    justify-content: center;
+
+}
+
+.navbuttons p {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(102, 100, 100);
+    margin-left: 5px;
+}
+
+.navbuttons img {
+    width: 22px;
+    height: 22px;
+}
+
+.flex {
+    display: flex;
+}
+
+@media (max-width: 550px) {
+   .navbuttons{
+    display: none;
+   } 
+}

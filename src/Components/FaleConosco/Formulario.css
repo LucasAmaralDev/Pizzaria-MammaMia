@@ -1,0 +1,26 @@
+
+
+.content-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.content-form label{
+    margin-left: 3px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.content-form input{
+    font-size: 1em;
+}
+
+.estilo-formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    padding-bottom: 10px;
+}
